@@ -37,6 +37,9 @@ Navigate to [Vultr](https://www.vultr.com/) and create an account. (You get a fr
 
 <b> - Select Deploy + or Depploy New Server.</b>
 
+![image](https://github.com/user-attachments/assets/0f736ce9-f260-4d57-b867-a25eb0c785fa)
+
+
 <img src="https://github.com/user-attachments/assets/f6037365-ad39-4328-8cce-7ec1151ec2cd" width="500" />
 
 Select “Optimized Cloud Compute - Dedicated CPU” as your New Instance and select your desired location.
