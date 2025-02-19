@@ -249,13 +249,17 @@ Create [Slack](https://slack.com/get-started#/createnew) account.
 
 Create A New Workspace. 
 
-<img src="https://github.com/user-attachments/assets/158a9c60-ab81-4e58-949a-553e81cbcc74" width="500" />
+![image](https://github.com/user-attachments/assets/69a3e7d2-44ff-4246-96f2-eef2a4e1b395)
+
 
 Choose the free plan.
 
 Create a new channel and name it <b>alerts</b>.
 
-<img src="https://github.com/user-attachments/assets/82e458ff-113d-4a39-92ff-78ad5d111388" width="500" />
+![image](https://github.com/user-attachments/assets/131fbca3-4b2e-4b85-853b-23c6b0fedcc2)
+
+![image](https://github.com/user-attachments/assets/485d5066-f474-4624-b961-acd7733c08bb)
+
 
 ---- 
 
@@ -263,9 +267,12 @@ Create a new channel and name it <b>alerts</b>.
 
 Create a free [tines](https://www.tines.com/) account.
 
-Tines dashboard. 
+Go to Tines dashboard ny clicking icon on the top left side.
 
-<img src="https://github.com/user-attachments/assets/85b4c16f-4d7d-4677-973a-6d8033a0aa86" width="500" />
+![image](https://github.com/user-attachments/assets/ef9d3587-d294-4c9f-b4ad-8a6de7a748de)
+
+![image](https://github.com/user-attachments/assets/cf854dbe-f44d-4a10-962a-60f5d13f7be5)
+
 
 *<b>The goal is to link LimaCharlie and tines.*</b>
 
@@ -275,7 +282,8 @@ Name the Webhook <b>Retrieves Detections</b> and Description <b>Retrieves Detect
 
 Copy the <b>Webhook URL</b> and go to LimaCharlie. 
 
-<img src="https://github.com/user-attachments/assets/faa2366f-e908-4e25-a5db-6f899e7465bd" width="500" />
+![image](https://github.com/user-attachments/assets/3619e8a2-0878-40ac-a9da-b1f44884dec1)
+
 
 In LimaCharlie, navigate to <b>Outputs > Add Output > Detections > Tines.
 
@@ -285,16 +293,20 @@ In LimaCharlie, navigate to <b>Outputs > Add Output > Detections > Tines.
 
 Name the Output and paste the Webhook URL.
 
-<img src="https://github.com/user-attachments/assets/01691493-479b-46ec-9afc-2a5fec65cded" width="500" />
+![image](https://github.com/user-attachments/assets/65955a5d-ee93-43a8-b164-a1ce5a7c76f8)
+
 
 *<b>After saving the output, you will not see a detection. Run a command in the virtual machine, Refresh Samples, and a sample detection will appear.</b>*
 
-![](https://github.com/user-attachments/assets/8f8cb381-09ec-421d-bbf8-b99f0b63757c)
-![](https://github.com/user-attachments/assets/d21c0ed8-68c2-4a1b-b11d-7ce16e8f5da3)
+![image](https://github.com/user-attachments/assets/05876e87-4175-4f67-9a77-f7dcc8e9acdf)
 
-Under <b>Retrieve Detections</b>, select <b>Events</b> and take a look at the most recent event. 
 
-<img src="https://github.com/user-attachments/assets/1e7f6478-a7bd-48d0-830e-551781a7d357" width="500" />
+GO BACK TO TINES. Under <b>Retrieve Detections</b>, select <b>Events</b> and take a look at the most recent event. 
+
+![image](https://github.com/user-attachments/assets/4ef9b384-eeb7-4374-91f4-760ad3dbb786)
+
+![image](https://github.com/user-attachments/assets/dde4029d-434b-43a1-8e03-ad1dfe56e7af)
+
 
 *<b>Next, we will link tines to slack.</b>
 
