@@ -340,21 +340,24 @@ On slack, right-click on alerts, select view channel details, and copy channel I
 
 ![](https://github.com/user-attachments/assets/212763bb-cf8e-4c29-98ca-71e423139a4f)
 
-![](https://github.com/user-attachments/assets/029e2a8b-a318-4493-9cbe-c0ff6399b617)
+![image](https://github.com/user-attachments/assets/042ddb30-9861-4878-aedc-a41b63140716)
+
 
 Paste the channel ID on tines.
 
-<img src="https://github.com/user-attachments/assets/ed0ec5ff-b0c8-4158-b340-57ebf41bf9ee" width="500" />
+![image](https://github.com/user-attachments/assets/8b49dc2b-5ac8-4651-824d-03f8fc4eb2a4)
 
-Now we will create the detection message with important fields. (These can be obtained under Retrieve Detections). 
 
-<img src="https://github.com/user-attachments/assets/0d92ec72-01e3-4aaa-a18b-a05fd30589de" width="500" />
+Connect Webhook and Slack on Tines by dragging a line attaching them and run to check if they are connected.
 
-Hit <b>run</b> on slack and verify the message. 
+![image](https://github.com/user-attachments/assets/e60b8d4e-932e-4355-89cf-7b861a735688)
 
-![](https://github.com/user-attachments/assets/d6b89b5d-6a71-45cd-8107-71a7ac478111)
+go back to Slack and check to see if we received the message.
 
-![](https://github.com/user-attachments/assets/f08bdef2-c5e2-4c7c-8ccb-0496e323125e)
+![image](https://github.com/user-attachments/assets/96a6e106-6433-4566-bf8f-6bfd784fcc36)
+
+Now thatb this is done we can move on to sending an email.
+
 
 ----
 <b> - Next we'll create a Send Email Action.</b>
@@ -363,17 +366,20 @@ Drag the Send Email Action onto the story and connect it to Webhook.
 
 Name the <b>Description, Sender name, and Subject</b>. 
 
-Copy the message from the slack body and paste it into the Email Action.
+use a burner email for this
 
-![](https://github.com/user-attachments/assets/081672a7-e4bb-4341-b12f-5ad0ed7f1713)
+![image](https://github.com/user-attachments/assets/f77f4787-6408-46f8-aa51-38ec4db748d3)
+
 
 Select Run > Retrieve Detections > Test. 
 
-![](https://github.com/user-attachments/assets/a1b98f57-7d16-44b8-91af-ad4e59fc972c)
+![image](https://github.com/user-attachments/assets/66847713-cbcc-48c5-afd0-11e1ae503921)
+
 
 Confirmed email!
 
-![](https://github.com/user-attachments/assets/d64fca7e-60f6-4aa6-8618-71211c3a2cf3)
+![image](https://github.com/user-attachments/assets/2fefb9c9-23b3-4934-b9d8-e5ee6de28729)
+
 
 ---
 <b> - For User Prompt, hit tools and add a new page. </b>
