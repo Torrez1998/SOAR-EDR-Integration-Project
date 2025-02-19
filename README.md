@@ -35,58 +35,78 @@ LimaCharlie detects the use of LaZagne on endpoint devices, triggering automated
 
 Navigate to [Vultr](https://www.vultr.com/) and create an account. (You get a free $100 credit using the hyperlink provided!)
 
-<b> - Select Deploy + or Depploy New Server.</b>
+<b> - Select Deploy + or Deploy New Server.</b>
 
-![image](https://github.com/user-attachments/assets/0f736ce9-f260-4d57-b867-a25eb0c785fa)
+![image](https://github.com/user-attachments/assets/8876a24c-eddc-4b52-a6e9-83a365454b27)
 
 
-<img src="https://github.com/user-attachments/assets/f6037365-ad39-4328-8cce-7ec1151ec2cd" width="500" />
 
-Select “Optimized Cloud Compute - Dedicated CPU” as your New Instance and select your desired location.
 
-<img src="https://github.com/user-attachments/assets/ef1717fd-b58b-4f73-a2ce-8c9c67e3cf46" width="500" />
+Select “Cloud compute - shared CPU or dedicated CPU for larger databases” as your New Instance and select your desired location.
 
-For Image, select Windows Standard 2022.
+![image](https://github.com/user-attachments/assets/7402ad1a-c91a-4b85-b7ce-3c87b7f7ec42)
 
-<img src="https://github.com/user-attachments/assets/63217f3f-c000-4d6f-90ef-c534bfb72caa" width="500" />
 
-Select the lowest plan. In this case, it will be $54/month.
+For OS, select Windows Standard 2022.
 
-<img src="https://github.com/user-attachments/assets/4dcedcff-4182-4886-a6f6-0180bd620671" width="500" />
+![image](https://github.com/user-attachments/assets/c0bc2b14-24d3-436b-aa9d-5f060c2beda3)
 
-Name your Hostname & Label 
 
-<img src="https://github.com/user-attachments/assets/76dcea11-f6b4-4f9b-ae16-1bc397988857" width="500" />
+Please select a plan, we went with vc2-1c-2gb.  In this case, it will be $28/month.
+
+![image](https://github.com/user-attachments/assets/fceb8b7f-5965-4d9c-a291-aeb74a0a5bde)
+
+
+Server settings can leave blank for this project. Name your Hostname & Label then hit "deploy"
+
+![image](https://github.com/user-attachments/assets/b34a63e2-4bdf-4cc2-95ae-16ec0fbd9a42)
+
 
 After you deploy the server, you will get the “Running” status
 
-<img src="https://github.com/user-attachments/assets/bbae925f-6152-456c-bb3c-33ee8786dbbb" width="500" />
+![image](https://github.com/user-attachments/assets/8adeecf5-dbf8-4f45-97e6-c2e97aee4fad)
+
 
 
 Once the installation is completed and you get “Running” status, select “View Server Details” to obtain the machine’s password and “View Console” to access the VM.
 
-![](https://github.com/user-attachments/assets/be8e5010-1eba-4bcb-8458-72ee6758a293)
+![image](https://github.com/user-attachments/assets/8fd7a6fd-74bd-4d65-9bb6-d2ff8de1594a)
 
-![](https://github.com/user-attachments/assets/a906243b-6927-46a7-82a8-fdacfc3e5137)
+
+![image](https://github.com/user-attachments/assets/d415d649-6040-4b88-9892-b39bf7816f8e)
+
 
 -----
 <b> - Next, we’ll set up the firewall.</b>.
 
 Under products, select <b>Network</b> > <b>Firewall</b> > <b>Firewall Group</b>.
 
-<img src="https://github.com/user-attachments/assets/0f61ace7-35d9-4804-9b14-d2eb623fb928" width="500" />
+![image](https://github.com/user-attachments/assets/af71f3f3-ebd1-4897-a34c-0efd16f58869)
+
+![image](https://github.com/user-attachments/assets/6ae9a0aa-67e4-44dc-aa55-12fb3839c88d)
+
+
 
 Give a Description Name and select <b>Add Firewall Group</b>
 
-For Protocol, select <b>MS RDP</b>. <b>Source</b>, select <b>MY IP</b> and hit the + button. 
+![image](https://github.com/user-attachments/assets/8cdc976b-62b8-476c-bab1-baf9e4a6bb0c)
 
-<img src="https://github.com/user-attachments/assets/c6865313-a24c-4629-b848-90cd6dcc119b" width="500" />
 
-To add the firewall, go back to your machine and select <b>Settings</b> > <b>Firewall</b> > Click the dropdown and select the firewall you created > <b>Update Firewall Group</b>.
+For Protocol, select <b>MS RDP</b>. <b>Source</b>, select <b>my IP or custom add it in</b> and hit the + button. 
 
-![](https://github.com/user-attachments/assets/bb014ad2-4820-42f0-bc9e-263646562044)
+![image](https://github.com/user-attachments/assets/014bf562-3344-4536-a59d-bb187964fefd)
 
-![](https://github.com/user-attachments/assets/6a80d47c-8b29-47f1-aa32-c230daa9ac91)
+
+To add the firewall, go back to your machine and select <b>Settings</b> > <b>Firewall</b> > Click the dropdown and select the firewall you created > <b>Update Firewall Group</b>. We are good to go.
+
+![image](https://github.com/user-attachments/assets/948a18aa-c06b-4ab6-914c-2234cf03a833)
+
+![image](https://github.com/user-attachments/assets/27c8bf11-240e-4cfd-9fc8-f23d38c24c34)
+
+![image](https://github.com/user-attachments/assets/00561065-90fd-4e4e-b449-7bb805843a3e)
+
+![image](https://github.com/user-attachments/assets/dec88e9f-08aa-48b3-a45b-1fb33114179f)
+
 
 -----
 # ![LimaCharlie](https://images.ctfassets.net/8ypp714zy4gs/56gQDOjtMywHI4R70K8WdJ/162b909916246fd2cb77fd95c0f74100/LimaCharlie_LogoMarkOnly_WHITE.png?w=64&q=100) EDR Installation on Virtual Machine
@@ -95,42 +115,57 @@ Navigate to [LimaCharlie](https://limacharlie.io/) and create an account.
 
 Create a New Organization, select your name and desired residency region.
 
-![](https://github.com/user-attachments/assets/e08d9529-8592-4bc3-980e-4620e480aa57)
+![image](https://github.com/user-attachments/assets/51cd1acd-a624-446e-9258-23a9c87f6169)
 
-![](https://github.com/user-attachments/assets/f3fd3849-2358-466b-a35f-e5b3721968d2)
 
-For the installation key, remove the default keys and create a new key.
+For the installation key, go to Sensors and click "Installation keys" remove the default keys and create a new key with your description.
 
-![](https://github.com/user-attachments/assets/824cc7ee-9ad8-4f45-af6e-159df3dd7772)
+![image](https://github.com/user-attachments/assets/a71d067e-ea90-4155-8508-70784441fca8)
 
-Next, under <b>Sensor Downloads</b>, copy the link address for the <b>Windows 64 bit</b> EDR agent and paste into server MS Edge page.
+![image](https://github.com/user-attachments/assets/2657c50c-a377-439e-ba46-b01d621bca39)
 
-![](https://github.com/user-attachments/assets/fa0dfd54-ad6f-40c7-aea6-d7c8aed3787c)
-![](https://github.com/user-attachments/assets/6e98b131-fbcf-4e60-aa73-01abc0d1c505)
+![image](https://github.com/user-attachments/assets/b1257d40-ac3c-450d-8188-8e55ffe8e044)
 
-Copy sensor key which is the installation key
 
-![](https://github.com/user-attachments/assets/96af6c87-2190-4953-9584-4530efb7d6a6)
+
+Next, under <b>Sensor Downloads</b> in the same "Installation keys" section, copy the link address for the <b>Windows 64 bit</b> EDR agent and paste into server MS Edge page.
+
+![image](https://github.com/user-attachments/assets/299c29d3-cf6d-4121-b850-db0b0ab0cea8)
+
+![image](https://github.com/user-attachments/assets/c8215eae-7dfd-4f00-a971-26c063f4fd9b)
+
+
+Next copy sensor key which is the installation key
+
+![image](https://github.com/user-attachments/assets/eb891ee5-4be2-4a4f-8c50-cf7b8441e9c6)
+
 
 Open Powershell on the Server as <b>Administrator</b>.
+![image](https://github.com/user-attachments/assets/bf152697-a1dd-4164-9d1f-0e73101c7474)
 
 Navigate to the downloads directory.
+hcp  
+![image](https://github.com/user-attachments/assets/95d4f635-cafd-46c9-b636-141edb24039b)
 
 Type in the hcp.exe downloaded, insert <b> -i </b>, the sensor key (installation key) and hit enter.
 
-![](https://github.com/user-attachments/assets/ddfa5bd2-73e3-4cfa-8595-80240e1df32f)
+![image](https://github.com/user-attachments/assets/615e120c-22d7-4b31-9d3c-06b9db61d66d)
 
-![](https://github.com/user-attachments/assets/fe512496-c6c2-411e-8332-42dafde3ec88)
 
 <b>Sweet! The Agent was installed successfully!</b>
 
-We can confirm that the sensor is active! 
+![image](https://github.com/user-attachments/assets/5b6e105e-f451-4693-b05f-5e3dc476e99a)
 
-![](https://github.com/user-attachments/assets/fcd6352a-4c7c-4685-9bd6-64999b0b5fc1)
 
-Sensor Details:
+We can confirm that the sensor is active in Services! 
 
-<img src="https://github.com/user-attachments/assets/fa36081b-7b6f-43f7-8864-7eca502927c9" width="500" />
+![image](https://github.com/user-attachments/assets/328fa7a5-ef11-43ec-9968-ce1efa839028)
+
+
+Go back to limacharlie and check that your server is on your sensory list and click to get an overview and other commands.
+
+![image](https://github.com/user-attachments/assets/1ef3341a-c61b-4908-83c0-cc94e54126e4)
+
 
 ---
 <b> - Next, we will download LaZagne (Password Recovery Tool) on the Windows Server to generate telemetry in LimaCharlie </b>
@@ -153,17 +188,18 @@ After running the command, LimaCharlie will generate a <b>NEW_PROCESS event</b>.
 
 Event Information:
 
-<img src="https://github.com/user-attachments/assets/40588b49-5854-4769-9125-aeec38eaf9b7" width="500" />
+![image](https://github.com/user-attachments/assets/9d82cd95-22a1-42c4-9d54-8b7848e3fbf6)
+
 
 
 <b> - Detection & Response Rule Creation </b>
 
 Navigate to <b>Automation</b> > <b>D&R Rules</b> > <b>New Rule</b>. 
 
-![](https://github.com/user-attachments/assets/50a138cc-9e8c-4865-b6e7-7863e1280298)
-![](https://github.com/user-attachments/assets/61ec5e92-04ca-4ce7-91eb-0a2e80de44a9)
+![image](https://github.com/user-attachments/assets/6a9fe386-dfd4-4173-b406-9119f7afa62a)
 
-#### - *We will use a template to help create the detection rule.*
+
+#### - *We will use a template as a guide to help create what we need for our detection rule.*
 Navigate to <b>Automation</b> > <b>D&R Rules</b> > <b>windows_process_creation/proc_creation_win_lolbin_device_credential_deployment</b>
 
 <img src="https://github.com/user-attachments/assets/3440779a-44b8-4425-a371-cd1bb6fdc1de" width="500" />
@@ -180,26 +216,32 @@ Select <b>Raw</b> and copy the rule content.
 
 Detect Rule:
 
-<img src="https://github.com/user-attachments/assets/1c230812-6122-459f-b8cf-405e7a04ab58" width="500" />
+![image](https://github.com/user-attachments/assets/224d9803-9971-425c-9a8f-24fdcfa2d932)
+
 
 Respond Rule:
 
-<img src="https://github.com/user-attachments/assets/4c8fe891-9f70-4b9e-9de7-a51ad6b5f283" width="500" />
+![image](https://github.com/user-attachments/assets/83bdda82-87ad-4e29-ac56-4f5684539a90)
+
 
 Name the New Rule and hit save:
 
-<img src="https://github.com/user-attachments/assets/1088234d-6d19-4348-8816-7182ebeddbd6" width="500" />
+![image](https://github.com/user-attachments/assets/adc60153-7aed-4daf-ae82-b5d4e0ff49d4)
 
-To test the new rule, copy the event from the timeline, paste it into the event section, and hit <b>Test Event</b>.
+
+To test the new rule, go down the page, copy the event from the timeline, paste it into the event section, and hit <b>Test Event</b>.
   
-<img src="https://github.com/user-attachments/assets/7b1b72f6-08fa-47e4-94cc-a31b87795e9c" width="500" />
+![image](https://github.com/user-attachments/assets/6effdd49-e346-462e-a549-317b8ae346c7)
+
+
 
 *<b>Can confirm that the new rule is working.</b>*
 
-<img src="https://github.com/user-attachments/assets/47d78879-d4b6-43a8-88fe-51e0ccee07b5" width="500" />
+![image](https://github.com/user-attachments/assets/c4d8cffa-f2bc-4c69-a625-bf904bb4260b)
+
 
 *After running a command in the Windows Server, a detection will pop up under the <b>Detections</b> tab.*
-
+You will now get detections!
 -----
 # ![Slack](https://a.slack-edge.com/3d92b39/marketing/img/nav/slack-salesforce-logo-nav-white.png)
 
