@@ -384,13 +384,31 @@ Confirmed email!
 ---
 <b> - For User Prompt, hit tools and add a new page. </b>
 
-Provide a <b> Name, Description, and Success message </b>. 
+Provide a <b> Name, Description, and Success message </b>. link user prompt wuth webhook
 
-<img src="https://github.com/user-attachments/assets/8b490173-b1a2-4988-bb2b-db350aaded79" width="500" />
+![image](https://github.com/user-attachments/assets/120859a8-ec9c-42cb-a251-ec74dc24bcb2)
 
-Select Edit on the User Prompt and input the Detection Fields. 
 
-<img src="https://github.com/user-attachments/assets/5d50c5c6-2022-47bd-8877-09e9e5ce5be5" width="500" />
+![image](https://github.com/user-attachments/assets/9063e8a2-968c-4307-a865-de17ece061d2)
+
+![image](https://github.com/user-attachments/assets/bb4e47d1-df12-4074-bf16-7c8db49f7cdf)
+
+Next click on User prompt we just made and click edit. Name the prompt header, change description, and add a Boolean and rename "Isolate?".
+
+![image](https://github.com/user-attachments/assets/0b8c1489-58ca-4cf6-9e8f-a08e89626779)
+
+![image](https://github.com/user-attachments/assets/49935d4b-4bfa-4ce9-9de2-9ca4ce52f66e)
+
+
+go back to Webhook and click on Events and under "retrieve detections" extend "body".
+
+![image](https://github.com/user-attachments/assets/b69d0df0-7535-423d-9d31-dccd5ebabc8c)
+
+Use Notepad to organize yourself as we will copy and paste what we need. Make sure to put them in an order that looks organized like the image below.
+
+![image](https://github.com/user-attachments/assets/5dee542a-2ecc-4f66-aaf2-4d705ad0f597)
+
+![image](https://github.com/user-attachments/assets/df7fade8-82d8-484c-a902-739b5ec5ae2b)
 
 Cool!!
 
