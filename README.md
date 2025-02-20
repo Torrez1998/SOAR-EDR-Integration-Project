@@ -411,9 +411,12 @@ Use Notepad to organize yourself as we will copy and paste the fields we are int
 
 Cool!!
 
-Go to your Slack in Tines and in messages copy and paste what we copied from webhook. You can also name your information.
+Go to your Slack in Tines and in messages copy and paste what we copied from webhook. You can also name your information and re-paste.
 
 ![image](https://github.com/user-attachments/assets/8f23efdf-b26e-4880-96f5-3abfa2fe43f4)
+
+![image](https://github.com/user-attachments/assets/77be59f9-b1e7-479c-a871-f37055aaa859)
+
 
 Go to Slack and test and alert, all the information should pop up.
 
