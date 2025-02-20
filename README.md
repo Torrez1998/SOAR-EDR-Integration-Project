@@ -422,7 +422,7 @@ Go to Slack and test and alert, all the information should pop up.
 
 ![image](https://github.com/user-attachments/assets/f702e7ca-7666-44a0-a4fb-da0d9dbc051a)
 
-We will make sure we can send an email as well. go to "send email" on Tines and in the body section, add the "Retrieve detections" info we copied and pasted and change it into HTML Format so the email comes out correctly. Simply add <br> to each section. Run and test.
+We will make sure we can send an email as well. go to "send email" on Tines and in the body section, add the "Retrieve detections" info we copied and pasted and change it into HTML Format so the email comes out correctly. Simply add "<be>" to each section. Run and test.
 
 ![image](https://github.com/user-attachments/assets/6a0c5994-0004-436c-ba05-a09f424ff9ff)
 
