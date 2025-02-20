@@ -404,15 +404,17 @@ go back to Webhook and click on Events and under "retrieve detections" extend "b
 
 ![image](https://github.com/user-attachments/assets/b69d0df0-7535-423d-9d31-dccd5ebabc8c)
 
-Use Notepad to organize yourself as we will copy and paste what we need. Make sure to put them in an order that looks organized like the image below.
+Use Notepad to organize yourself as we will copy and paste the fields we are interested in. Make sure to put them in an order so when we receive this message with the information, it is organized. Example image below. (remove the title in cat just put that in so who ever reads this knows what it is)
 
-![image](https://github.com/user-attachments/assets/5dee542a-2ecc-4f66-aaf2-4d705ad0f597)
 
 ![image](https://github.com/user-attachments/assets/df7fade8-82d8-484c-a902-739b5ec5ae2b)
 
 Cool!!
 
-<img src="https://github.com/user-attachments/assets/6bcd07b6-80a2-4939-ba22-e30145618f56" width="500" />
+Go to your Slack in Tines and in messages copy and paste what we copied from webhook.
+
+![image](https://github.com/user-attachments/assets/8f23efdf-b26e-4880-96f5-3abfa2fe43f4)
+
 
 <b> - We will now build out the Y/N responses for the User Prompt.</b> 
 
