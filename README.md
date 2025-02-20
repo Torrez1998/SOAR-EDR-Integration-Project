@@ -356,7 +356,7 @@ go back to Slack and check to see if we received the message.
 
 ![image](https://github.com/user-attachments/assets/96a6e106-6433-4566-bf8f-6bfd784fcc36)
 
-Now thatb this is done we can move on to sending an email.
+Now that this is done we can move on to sending an email.
 
 
 ----
@@ -415,6 +415,17 @@ Go to your Slack in Tines and in messages copy and paste what we copied from web
 
 ![image](https://github.com/user-attachments/assets/8f23efdf-b26e-4880-96f5-3abfa2fe43f4)
 
+Go to Slack and test and alert, all the information should pop up.
+
+![image](https://github.com/user-attachments/assets/f702e7ca-7666-44a0-a4fb-da0d9dbc051a)
+
+we will make sure we can send an email as well. go to mail and with your burner email, add the "Retrieve detections" info we copied and pasted and change it into HTML Format so the email comes out correctly. Simply add <br> to each section. Run and test.
+
+![image](https://github.com/user-attachments/assets/f6945d39-8fa5-4116-b2b7-e8fba7bfab08)
+
+![image](https://github.com/user-attachments/assets/717881d7-9d2e-4bad-88d1-5ff413a071cd)
+
+Beautiful.
 
 <b> - We will now build out the Y/N responses for the User Prompt.</b> 
 
