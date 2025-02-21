@@ -33,7 +33,7 @@ LimaCharlie detects the use of LaZagne on endpoint devices, triggering automated
 ----
 # Windows Server Virtual Machine Setup in Vultr 
 
-Navigate to [Vultr](https://www.vultr.com/) and create an account. (You get a free $100 credit using the hyperlink provided!)
+  Navigate to [Vultr](https://www.vultr.com/) and create an account. You can use any Cloud software.
 
 <b> - Select Deploy + or Deploy New Server.</b>
 
