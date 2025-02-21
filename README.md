@@ -434,58 +434,6 @@ We will make sure we can send an email as well. go to "send email" on Tines and 
 
 Beautiful.
 
-<b> - We will now build out the Y/N responses for the User Prompt.</b> 
-
-<img src="https://github.com/user-attachments/assets/83578fd1-e2ce-47af-acc0-e04694c4678a" width="500" />
-
-Select the <b>Trigger</b> tool and drag it to the story. 
-Name it <b>Yes</b> and input the rules.
-
-![](https://github.com/user-attachments/assets/19633cb6-83d7-4bb7-ac5a-037ee6652e68)
-
-![](https://github.com/user-attachments/assets/ed50ad47-a1af-4407-80bd-3210ec308524)
-
-Under templates, select <b>LimaCharlie</b> and search for <b>Isolate Sensor</b>.
-
-Provide a <b> Name and Description</b>.
-
-Under <b>URL</b>, add the value, <b>retrieve_detections.body.routing.sid</b>.   
-
-![](https://github.com/user-attachments/assets/bfbd9700-177f-4436-9968-2595afa86f9d)
-
-![](https://github.com/user-attachments/assets/b87da941-3f52-4b96-ad1b-ffef8c69c34e)
-
-![](https://github.com/user-attachments/assets/fe138534-a30f-48fd-90ba-414e38981c41)
-
-Once that is done, click on events under User Prompt, select the latest event, and Re-emit. 
-
-<img src="https://github.com/user-attachments/assets/f4d76985-2e66-4c8f-bed1-8fa9d5fdf713" width="500" />
-
-Can confirm that the host has been isolated in LimaCharlie!
-
-![](https://github.com/user-attachments/assets/846b7f10-db45-4fa0-96bf-676dbcff179e)
-
-<img src="https://github.com/user-attachments/assets/8bf8f654-7cf9-46e8-8524-d8f88bf505ac" width="500" />
-
-Unable to ping with the host being isolated. 
-
-<img src="https://github.com/user-attachments/assets/b0358e24-8a0e-4cfe-94d1-b7e8d02f2b35" width="500" />
-
-<b> - Set up another <b>LimaCharlie</b> template and search for <b>Get Isolation Status</b>. 
-
-![](https://github.com/user-attachments/assets/49dee7c7-f111-4503-a1dc-f8c6d3ab45e0)
-
-Under <b>URL</b>, add the value, <b>retrieve_detections.body.routing.sid</b>.   
-
-![](https://github.com/user-attachments/assets/3c33db80-37ef-4ffc-a038-7d6bf916780d)
-
-Add the Slack template and input the <b>Isolation Status & Computer</b> message.  
-![](https://github.com/user-attachments/assets/e2e13df6-9f0b-46f7-959b-31d3dc492f8c)
-
-Run a test and we will receive a message on slack.
-
-![](https://github.com/user-attachments/assets/fa1f65fc-6b83-43d7-ae71-ca2feb0489f7)
-
 
 ---
 
@@ -507,6 +455,6 @@ Visit the User Prompt page and select No.
 
 *<b>A message will appear on slack to investigate.</b>*
 
-![](https://github.com/user-attachments/assets/06c202ad-fe10-4190-b78e-b0bed912e86b)
+![image](https://github.com/user-attachments/assets/9d884cf1-7f53-4a57-978a-520074be7e73)
 
-![image](https://github.com/user-attachments/assets/0a5e0b83-4bfd-46aa-8be6-704bef83baf9)
+
