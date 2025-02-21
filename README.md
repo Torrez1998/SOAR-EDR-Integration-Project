@@ -449,9 +449,13 @@ Add the Slack template to <b>Send a message</b> and connect it to the Trigger ac
 
 Under Message, add the value, <b>retrieve_detections.body.detect.routing.hostname</b>. 
 
-![](https://github.com/user-attachments/assets/98455546-0004-4562-bcd2-72b21d1f642c)
+![image](https://github.com/user-attachments/assets/8200247a-7780-492f-8b90-9f8f3894f58f)
+
 
 Visit the User Prompt page and select No.
+
+![image](https://github.com/user-attachments/assets/810a809b-daa4-413d-9694-2edc2aa388b3)
+
 
 *<b>A message will appear on slack to investigate.</b>*
 
