@@ -382,22 +382,24 @@ Confirmed email!
 
 
 ---
-<b> - For User Prompt, hit tools and add a new page. </b>
+<b> - For User Prompt, we will also edit what we copy and pasted into our notepad here into the contents. </b>
 
-Provide a <b> Name, Description, and Success message </b>. link user prompt wuth webhook
-
-![image](https://github.com/user-attachments/assets/120859a8-ec9c-42cb-a251-ec74dc24bcb2)
+![image](https://github.com/user-attachments/assets/2c5501de-d84a-47db-b108-8e35d0dce609)
 
 
-![image](https://github.com/user-attachments/assets/9063e8a2-968c-4307-a865-de17ece061d2)
+Next we will make an if/else trigger. for the Rule we are using User_prompt -> body -> body -> isolate. If this does not pop up, then you need to generate an event from the user prompt by visiting page and going through the response.
 
-![image](https://github.com/user-attachments/assets/bb4e47d1-df12-4074-bf16-7c8db49f7cdf)
+![image](https://github.com/user-attachments/assets/b10afd43-8e2b-4748-b899-59274a61d37c)
 
-Next click on User prompt we just made and click edit. Name the prompt header, change description, and add a Boolean and rename "Isolate?".
+Duplicate the first slack message connection to make a new one with recieving detections from the computer only including a response.
 
-![image](https://github.com/user-attachments/assets/0b8c1489-58ca-4cf6-9e8f-a08e89626779)
+![image](https://github.com/user-attachments/assets/0e128927-e657-4ace-a192-9cbb446e56ec)
 
-![image](https://github.com/user-attachments/assets/49935d4b-4bfa-4ce9-9de2-9ca4ce52f66e)
+![image](https://github.com/user-attachments/assets/6e165a60-9277-4079-bc5b-26be55c153b9)
+
+connect to trigger.
+
+![image](https://github.com/user-attachments/assets/540d5ade-b4ec-4c24-801f-e429879eaa0e)
 
 
 go back to Webhook and click on Events and under "retrieve detections" extend "body".
