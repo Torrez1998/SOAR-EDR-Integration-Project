@@ -498,3 +498,9 @@ back into our story on Tines. Connect limaCharlie with the credentials we just m
 
 ![image](https://github.com/user-attachments/assets/d6a92731-6aad-4e45-bc23-0c29b9e4839f)
 
+now for the moment of truth, lets run the playbook specifically the "yes" prompt and see if its isolates the machine.
+Go to LimaCharlie under "sensors" then "sensors lists" and check to see if your machine is isolated. might need to refresh the page to show. 
+
+![image](https://github.com/user-attachments/assets/e3f8e0b0-1a8a-4585-b1d2-f0e1358e5fac)
+
+Great!
