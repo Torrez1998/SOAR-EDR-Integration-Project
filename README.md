@@ -461,4 +461,40 @@ Visit the User Prompt page and select No.
 
 ![image](https://github.com/user-attachments/assets/9d884cf1-7f53-4a57-978a-520074be7e73)
 
+Next we will setup the automated response when we select "yes" for the user prompt.
+we will need to create another trigger, change the name to "Yes" and the rule from "false" to "true" and connect to user prompt.
+
+![image](https://github.com/user-attachments/assets/e538c16e-23c4-4538-a9c0-6f3e8f5b9270)
+
+next we will need to connect limacharlie to Isolate the virtual machine. build a template and search for an isolator.
+
+![image](https://github.com/user-attachments/assets/e09afa45-1aa0-4f7a-90c4-040f629350d1)
+
+copy and paste the sid onto the URL.
+
+![image](https://github.com/user-attachments/assets/fe440cf6-81f6-4aac-aab7-2ef99ba32087)
+
+We need to create a credential for lima charlie.
+go to limacharlie and EXTEND "Access management"  and you will see "REST API" We need to copy the organization API Keys as it is recommended to use in their Documentation.
+go to main menu of Tines and click on credentials, we will make this a text credential.
+
+
+![image](https://github.com/user-attachments/assets/be4b0af0-0792-42e8-ae60-f1a2e213af9d)
+
+![image](https://github.com/user-attachments/assets/eba69df0-9e8e-434e-a465-bec3da4d4885)
+
+![image](https://github.com/user-attachments/assets/24696f1d-370d-4917-96a0-d4896151d208)
+
+![image](https://github.com/user-attachments/assets/513d9625-21e0-4068-a3ea-77c8231d8f77)
+
+create the text credentials for LimaCharlie, and under "Value" paste the Org API
+
+![image](https://github.com/user-attachments/assets/916748b1-4211-4a41-a9af-24924a1a7688)
+
+add the limacharlie domain as shown. this will ensure the credentials can only be used for this website and any subdomains.
+after that hit save and it should create the credential for you.
+
+back into our story on Tines. Connect limaCharlie with the credentials we just made.
+
+![image](https://github.com/user-attachments/assets/d6a92731-6aad-4e45-bc23-0c29b9e4839f)
 
