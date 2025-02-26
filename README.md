@@ -530,7 +530,7 @@ Let us Edit our Most recent Slack template to get our Isolation status. make sur
 
 ![image](https://github.com/user-attachments/assets/9a560bb8-bd27-4bdc-987c-5859987c4f49)
 
-Everything should be Setup and done! Lets test everrything out by playing our our story on the "Yes" Prompt and "no", and making sure we receive our messages and emails.
+Everything should be Setup and done! Lets test everrything out by playing our story on the "Yes" Prompt and "no", and making sure we receive our messages and emails.
 
 We got our first Slack message.
 
