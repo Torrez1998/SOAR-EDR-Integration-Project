@@ -15,7 +15,7 @@ LimaCharlie detects the use of LaZagne on endpoint devices, triggering automated
 - <b> LimaCharlie (EDR)</b>: Used to detect and respond to security threats.
 - <b>Tines (SOAR)</b>: Automates the security workflows and orchestrates the response actions.
 - <b>Slack</b>: Serves as the communication platform to receive alert detections.
-- <b>SquareX (Email)</b>: Used to receive detection alert emails.
+- <b>Any Burner email website. I used temp-mail.org</b>: Used to receive detection alert emails.
 - <b>Vultr</b>: Cloud provider for hosting the virtual machine used in the project. (You can use other cloud providers or use Vmware/VirtualBox, just make sure they are connected to the internet)
 
 # Skills Gained 
