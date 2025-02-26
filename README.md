@@ -504,3 +504,60 @@ Go to LimaCharlie under "sensors" then "sensors lists" and check to see if your 
 ![image](https://github.com/user-attachments/assets/e3f8e0b0-1a8a-4585-b1d2-f0e1358e5fac)
 
 Great!
+
+next we need to show this as a message on Slack. lets copy the Slack from the "no" trigger side.
+
+![image](https://github.com/user-attachments/assets/f118ba57-7b6f-403f-8efe-4d43e1825dd1)
+
+Next create a limaCharlie template so we can add an Isolation status into our Slack Message.
+
+![image](https://github.com/user-attachments/assets/ed4a954e-c0e2-4ebc-9b70-5457ea5edfd3)
+
+Build out the template. and make sure that the credential is correct by connecting to the LimaCharlie one we created earlier as it will show that it needs to be connected.
+
+![image](https://github.com/user-attachments/assets/94dd7b09-ccb9-412a-936d-170895d29c8e)
+
+![image](https://github.com/user-attachments/assets/f03de3fa-17bf-4fa3-818f-67b01b501c44)
+
+connect Story sections.
+
+![image](https://github.com/user-attachments/assets/0d591697-7949-428a-b8b3-32cde9e57d9e)
+
+Let us Edit our Most recent Slack template to get our Isolation status. make sure to re-run the story so that Slack can receive data to pull. you can quickly do this by Re-emiting the User Prompt.
+
+![image](https://github.com/user-attachments/assets/072d0d65-d33b-4b52-9337-a08e92a79adc)
+
+
+![image](https://github.com/user-attachments/assets/9a560bb8-bd27-4bdc-987c-5859987c4f49)
+
+Everything should be Setup and done! Lets test everrything out by playing our our story on the "Yes" Prompt and "no", and making sure we receive our messages and emails.
+
+We got our first Slack message.
+
+![image](https://github.com/user-attachments/assets/198d54dc-07e5-4f4e-874f-ab809237441e)
+
+We got our E-mail.
+
+![image](https://github.com/user-attachments/assets/051e9d23-90d8-48bf-8470-b78daed12c8e)
+
+Our User Prompt page is displaying the correct info.
+
+![image](https://github.com/user-attachments/assets/cbe9d773-6a60-4f1c-b794-9e23cd6867d0)
+
+The "no" Prompt is working.
+
+![image](https://github.com/user-attachments/assets/05871c56-e2ff-4fd3-9231-4777057594df)
+
+Our "Yes" Prompt is also working. We can check LimaCharlie and see that our VM is isolated and that we received our Slack message.
+
+![image](https://github.com/user-attachments/assets/30f43049-32eb-4d8c-981c-17b147c62794)
+
+![image](https://github.com/user-attachments/assets/e4c4f400-686e-405f-8d3e-92e0e1a32a19)
+
+To double check that our VM is isolated I Pinged Google.com to see if we have a connection and we don't.
+
+![image](https://github.com/user-attachments/assets/2a7218c2-0b53-4b81-b9d0-3052076857f2)
+
+Final Tines playbook.
+
+![image](https://github.com/user-attachments/assets/fdb5df89-5c15-49f4-97c6-f211eee12151)
